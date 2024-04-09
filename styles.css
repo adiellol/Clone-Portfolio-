@@ -15,6 +15,10 @@ h1, h2, h3, h4, h5, h6, span{
     line-height: 1.25;
 }
 
+h1{
+    font-size: 36px;
+}
+
 p{
     line-height: 1.5;
     font-size: 16px;
@@ -36,6 +40,10 @@ li{
     width: 100%;
     max-width: 800px;
     margin: 0 auto;
+}
+
+.text--cyan{
+    color:  rgb(27, 231, 231);
 }
 
 /* NAVIGATION BAR */
@@ -91,10 +99,18 @@ nav{
     flex-direction: column;
 }
 
+.about-me__info{
+   display: flex;
+   flex-direction: column; 
+}
+
 .about-me__info--container{
     display: flex;
     flex-direction:column;
     align-items: center;
+    max-width: 600px ; /* from line 106 to line 108, we added these so the paragraph would not be too wide. */
+    margin: 0 auto;
+    text-align: center;
 }
 .about-me__picture{
     width: 100%;
@@ -113,5 +129,24 @@ nav{
     margin-bottom: 28px;
 }
 
+.about-me__info--title{
+    margin-bottom: 16px;
+}
+
+.about-me__info--para{
+    font-size: 20px;
+    margin-bottom: 28px;
+}
+
+.about-me__link{
+    font-size: 20px;
+    color: #242424;
+    text-decoration: none;
+    padding: 0 8px;
+}
+
+.about-me_img--container{
+    
+}
 
  
