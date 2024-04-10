@@ -50,7 +50,7 @@ li{
     color:  rgb(27, 231, 231);
 }
 
-section:nth-child(evem) {
+section:nth-child(even) {
     background-color: #f8f8f8;
 }
 
